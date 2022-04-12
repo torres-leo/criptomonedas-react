@@ -9,6 +9,10 @@ const Contenedor = styled.div`
 	align-items: center;
 	gap: 2rem;
 	margin-top: 30px;
+
+	@media (max-width: 375px) {
+		flex-direction: column;
+	}
 `;
 
 const Imagen = styled.img`
